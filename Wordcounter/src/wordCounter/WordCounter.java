@@ -23,7 +23,7 @@ public class WordCounter {
 				}
 				System.out.println("Word countered: "+count);
 			} catch (FileNotFoundException e) {
-				System.out.println("File Not found!!!!");
+				System.out.println("File Not found!");
 				System.out.println("Please Enter Absolute Location Of the file: ");
 			}
 		}else {
